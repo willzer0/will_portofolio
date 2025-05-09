@@ -1,15 +1,27 @@
 #home-nav:hover {
-    background-color: #99ffff;
-    border-radius: 8px;
-    color: white;
+    background-color: #454545;
+    border-radius: 16px;
+    color: #f2f0eb;
+    font-weight: 500;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
 
 #home-nav {
-    margin-right: 30px;
+    margin-right: 10px;
+    color: #454545;
+    font-weight: 500;
+    padding: 10px 20px;
 }
 
 #logo {
     margin-left: 40px;
+}
+
+.git {
+    margin-right: 40px;
+}
+.gitimage{
+    border-radius: 16px;
+    box-shadow: #454545;
 }
