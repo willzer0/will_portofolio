@@ -1,7 +1,7 @@
 #home-nav:hover {
-    background-color: #454545;
+    background-color: #ffd400;
     border-radius: 16px;
-    color: #f2f0eb;
+    color: #171717;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -9,7 +9,7 @@
 
 #home-nav {
     margin-right: 10px;
-    color: #454545;
+    color: #171717;
     font-weight: 500;
     padding: 10px 20px;
 }
@@ -17,11 +17,40 @@
 #logo {
     margin-left: 40px;
 }
+.logo {
+    height: 50px;
+}
+.logo:hover {
+    opacity: 0.7;
+}
 
 .git {
     margin-right: 40px;
 }
-.gitimage{
-    border-radius: 16px;
-    box-shadow: #454545;
+.git:hover {
+   opacity: 0.7;
 }
+.gitimage{
+    border-radius: 32px;
+    box-shadow: #171717;
+    height: 50px;
+}
+
+@media (max-width: 600px) {
+    #logo {
+        margin-left: 10px;
+    }
+    .logo {
+        height: 30px;
+    }
+    .git {
+        margin-right: 10px;
+    }
+    .gitimage{
+        border-radius: 16px;
+        box-shadow: #171717;
+        height: 30px;
+    }
+    
+}
+

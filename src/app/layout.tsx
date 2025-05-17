@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./component/navbar";  
+import Intro from "./component/intro";
+import About from "./component/about";
 
 
 export const metadata: Metadata = {
@@ -12,8 +14,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="id">
-      <body style={{ backgroundImage: "url('/grey2.jpeg')", backgroundSize: "cover" }}>
+      <body style={{ backgroundColor: "#E7E7E0"}}>
         <Navbar />
+        <Intro />
+        <About />
         <main>{children}</main>
       </body>
     </html>
